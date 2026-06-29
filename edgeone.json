@@ -1,0 +1,11 @@
+{
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "nodeVersion": 18,
+  "cloudFunctions": {
+    "nodejs": {
+      "/api/create": "cloud-functions/api/create"
+    }
+  }
+}
